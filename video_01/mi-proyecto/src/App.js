@@ -18,7 +18,7 @@ function App() {
       <h2>{apellido[1]}</h2>
       <h3>{direccion.calle} {direccion.numero}</h3>
       <div>{caja}</div>
-      <img src={imagen} className="img" />
+      <img src={imagen} className="img" alt="imagen" />
       <input type="text" />
       <input value={nombre} />
       <br />
