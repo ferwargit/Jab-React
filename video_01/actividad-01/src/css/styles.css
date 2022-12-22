@@ -1,0 +1,21 @@
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.caja {
+  width: 30%;
+  background-color: goldenrod;
+  font-size: 2rem;
+  border-radius: 12px;
+  border: 1px solid black;
+  color: black;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.img {
+  /* Con width al 100% las imagenes se adaptan al ancho de las cajas */
+  width: 100%;
+}
